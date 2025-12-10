@@ -1,0 +1,22 @@
+Number of studies: k = 2
+Number of observations: o = 472 (o.e = 292, o.c = 180)
+
+                        SMD            95%-CI    z p-value
+Random effects model 0.0949 [-0.0968; 0.2866] 0.97  0.3319
+Prediction interval         [-1.1478; 1.3376]             
+
+Quantifying heterogeneity:
+ tau^2 = 0; tau = 0; I^2 = 0.0%; H = 1.00
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 0.90    1  0.3421
+
+Details of meta-analysis methods:
+- Inverse variance method
+- Restricted maximum-likelihood estimator for tau^2
+- Calculation of I^2 based on Q
+- Prediction interval based on t-distribution (df = 1)
+- Hedges' g (bias corrected standardised mean difference; using exact formulae)
+
+File created on 2025-10-27 by user jayceekennett

@@ -1,0 +1,49 @@
+Pairwise comparison,Number of studies in each comparison,.,Within study assessment of bias,Across-study assessment of bias,Overall judgement
+Group A: observed for this outcome,Reporing this outome (sample size),Total identified in the systematic review (sample size),.,.,.
+CBM-A:CBM-I,1 (41),3 (139),No bias suspected,No bias suspected,No bias suspected
+CBM-A:Combined control,1 (40),3 (142),No bias suspected,No bias suspected,No bias suspected
+CBM-A:Control CBM-A,19 (1092),28 (1680),Suspected bias favouring CBM-A,Suspected bias favouring CBM-A,Suspected bias favouring CBM-A
+CBM-A:Multicomponent,1 (41),3 (133),No bias suspected,No bias suspected,No bias suspected
+CBM-A:Opposite CBM-A,4 (272),6 (380),Suspected bias favouring CBM-A,Suspected bias favouring CBM-A,Suspected bias favouring CBM-A
+CBM-A:Waitlist,1 (43),1 (43),No bias suspected,No bias suspected,No bias suspected
+CBM-I:Combined control,1 (41),3 (141),No bias suspected,No bias suspected,No bias suspected
+CBM-I:Control CBM-I,7 (354),11 (608),Suspected bias favouring CBM-I,Suspected bias favouring CBM-I,Suspected bias favouring CBM-I
+CBM-I:Multicomponent,1 (42),3 (132),No bias suspected,No bias suspected,No bias suspected
+CBM-I:Opposite CBM-I,1 (42),1 (42),No bias suspected,Suspected bias favouring CBM-I,Suspected bias favouring CBM-I
+CBM-I:TAU,2 (149),2 (149),No bias suspected,No bias suspected,No bias suspected
+CBM-I:Waitlist,5 (219),5 (219),No bias suspected,No bias suspected,No bias suspected
+Combined control:Multicomponent,1 (41),3 (135),No bias suspected,No bias suspected,No bias suspected
+Control CBM-A:Multicomponent,1 (65),1 (65),No bias suspected,No bias suspected,No bias suspected
+Control CBM-A:Opposite CBM-A,3 (177),5 (269),Suspected bias favouring opposite CBM-A,No bias suspected,Suspected bias favouring opposite CBM-A
+Control CBM-A:Waitlist,1 (43),1 (43),No bias suspected,No bias suspected,No bias suspected
+Group B: Observed for other outcomes,.,.,.,.,.
+Multicomponent:Waitlist,NA,1 (170),No bias suspected,No bias suspected,No bias suspected
+Group C: Unobserved,.,.,.,.,.
+CBM-A:Control CBM-I,0,0,NA,No bias suspected,No bias suspected
+CBM-A:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+CBM-A:TAU,0,0,NA,No bias suspected,No bias suspected
+CBM-I:Control CBM-A,0,0,NA,No bias suspected,No bias suspected
+CBM-I:Opposite CBM-A,0,0,NA,No bias suspected,No bias suspected
+Combined control:Control CBM-A,0,0,NA,No bias suspected,No bias suspected
+Combined control:Control CBM-I,0,0,NA,No bias suspected,No bias suspected
+Combined control:Opposite CBM-A,0,0,NA,No bias suspected,No bias suspected
+Combined control:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+Combined control:TAU,0,0,NA,No bias suspected,No bias suspected
+Combined control:Waitlist,0,0,NA,No bias suspected,No bias suspected
+Control CBM-A:Control CBM-I,0,0,NA,No bias suspected,No bias suspected
+Control CBM-A:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+Control CBM-A:TAU,0,0,NA,No bias suspected,No bias suspected
+Control CBM-I:Multicomponent,0,0,NA,No bias suspected,No bias suspected
+Control CBM-I:Opposite CBM-A,0,0,NA,No bias suspected,No bias suspected
+Control CBM-I:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+Control CBM-I:TAU,0,0,NA,No bias suspected,No bias suspected
+Control CBM-I:Waitlist,0,0,NA,No bias suspected,No bias suspected
+Multicomponent:Opposite CBM-A,0,0,NA,No bias suspected,No bias suspected
+Multicomponent:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+Multicomponent:TAU,0,0,NA,No bias suspected,No bias suspected
+Opposite CBM-A:Opposite CBM-I,0,0,NA,No bias suspected,No bias suspected
+Opposite CBM-A:TAU,0,0,NA,No bias suspected,No bias suspected
+Opposite CBM-A:Waitlist,0,0,NA,No bias suspected,No bias suspected
+Opposite CBM-I:TAU,0,0,NA,No bias suspected,No bias suspected
+Opposite CBM-I:Waitlist,0,0,NA,No bias suspected,No bias suspected
+TAU:Waitlist,0,0,NA,No bias suspected,No bias suspected

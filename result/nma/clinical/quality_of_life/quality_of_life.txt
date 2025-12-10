@@ -1,0 +1,182 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                           treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Amir (2009)                 CBM-A    Control CBM-A  0.6306 0.3089     0.3089     0.6598     2         
+Amir (2012)                 CBM-I    Control CBM-I  0.6114 0.2928     0.2928     0.6524     2         
+Boettcher (2012)            CBM-A    Control CBM-A  0.1601 0.2430     0.2430     0.6316     2         
+Boettcher (2013)            CBM-A    Control CBM-A  0.3102 0.2217     0.2716     0.7639     3        *
+Boettcher (2013)            CBM-A   Opposite CBM-A  0.4235 0.2225     0.2735     0.7646     3        *
+Boettcher (2013)    Control CBM-A   Opposite CBM-A  0.1133 0.2210     0.2697     0.7633     3        *
+Carlbring (2012)            CBM-A    Control CBM-A -0.2000 0.2256     0.2256     0.6251     2         
+Ma (2020)                   CBM-A   Opposite CBM-A -1.0591 0.2191     0.2191     0.6228     2         
+Naim (2018)                 CBM-A            CBM-I  0.0096 0.3124     0.4472     0.9377     4        *
+Naim (2018)                 CBM-A Combined control  0.0029 0.3162     0.4583     0.9428     4        *
+Naim (2018)                 CBM-A   Multicomponent -0.0105 0.3057     0.4273     0.9287     4        *
+Naim (2018)                 CBM-I Combined control -0.0067 0.3124     0.4472     0.9377     4        *
+Naim (2018)      Combined control   Multicomponent -0.0134 0.3057     0.4273     0.9287     4        *
+Naim (2018)                 CBM-I   Multicomponent -0.0201 0.3018     0.4170     0.9237     4        *
+
+Number of treatment arms (by study):
+                 narms
+Amir (2009)          2
+Amir (2012)          2
+Boettcher (2012)     2
+Boettcher (2013)     3
+Carlbring (2012)     2
+Ma (2020)            2
+Naim (2018)          4
+
+Results (common effects model):
+
+                           treat1           treat2     SMD             95%-CI     Q leverage
+Amir (2009)                 CBM-A    Control CBM-A  0.0537 [-0.1798;  0.2873]  3.49     0.15
+Amir (2012)                 CBM-I    Control CBM-I  0.6114 [ 0.0375;  1.1854]  0.00     1.00
+Boettcher (2012)            CBM-A    Control CBM-A  0.0537 [-0.1798;  0.2873]  0.19     0.24
+Boettcher (2013)            CBM-A    Control CBM-A  0.0537 [-0.1798;  0.2873]  0.89        .
+Boettcher (2013)            CBM-A   Opposite CBM-A -0.2940 [-0.5849; -0.0032]  6.89        .
+Boettcher (2013)    Control CBM-A   Opposite CBM-A -0.3478 [-0.6762; -0.0193]  2.92        .
+Carlbring (2012)            CBM-A    Control CBM-A  0.0537 [-0.1798;  0.2873]  1.26     0.28
+Ma (2020)                   CBM-A   Opposite CBM-A -0.2940 [-0.5849; -0.0032] 12.19     0.46
+Naim (2018)                 CBM-A            CBM-I  0.0096 [-0.6028;  0.6220]  0.00        .
+Naim (2018)                 CBM-A Combined control  0.0029 [-0.6169;  0.6227]  0.00        .
+Naim (2018)                 CBM-A   Multicomponent -0.0105 [-0.6097;  0.5888]  0.00        .
+Naim (2018)                 CBM-I Combined control -0.0067 [-0.6191;  0.6056]  0.00        .
+Naim (2018)      Combined control   Multicomponent -0.0134 [-0.6126;  0.5859]  0.00        .
+Naim (2018)                 CBM-I   Multicomponent -0.0201 [-0.6117;  0.5715]  0.00        .
+
+Results (random effects model):
+
+                           treat1           treat2     SMD            95%-CI
+Amir (2009)                 CBM-A    Control CBM-A  0.1123 [-0.4983; 0.7230]
+Amir (2012)                 CBM-I    Control CBM-I  0.6114 [-0.6673; 1.8901]
+Boettcher (2012)            CBM-A    Control CBM-A  0.1123 [-0.4983; 0.7230]
+Boettcher (2013)            CBM-A    Control CBM-A  0.1123 [-0.4983; 0.7230]
+Boettcher (2013)            CBM-A   Opposite CBM-A -0.2695 [-1.0882; 0.5491]
+Boettcher (2013)    Control CBM-A   Opposite CBM-A -0.3818 [-1.2928; 0.5291]
+Carlbring (2012)            CBM-A    Control CBM-A  0.1123 [-0.4983; 0.7230]
+Ma (2020)                   CBM-A   Opposite CBM-A -0.2695 [-1.0882; 0.5491]
+Naim (2018)                 CBM-A            CBM-I  0.0096 [-1.2868; 1.3060]
+Naim (2018)                 CBM-A Combined control  0.0029 [-1.2971; 1.3028]
+Naim (2018)                 CBM-A   Multicomponent -0.0105 [-1.3008; 1.2798]
+Naim (2018)                 CBM-I Combined control -0.0067 [-1.3032; 1.2897]
+Naim (2018)      Combined control   Multicomponent -0.0134 [-1.3036; 1.2769]
+Naim (2018)                 CBM-I   Multicomponent -0.0201 [-1.3068; 1.2666]
+
+Number of studies: k = 7
+Number of pairwise comparisons: m = 14
+Number of treatments: n = 7
+Number of designs: d = 5
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-I'):
+                    SMD            95%-CI    z p-value
+CBM-A            0.6210 [-0.2183; 1.4603] 1.45  0.1470
+CBM-I            0.6114 [ 0.0375; 1.1854] 2.09  0.0368
+Combined control 0.6182 [-0.2211; 1.4575] 1.44  0.1489
+Control CBM-A    0.5673 [-0.3039; 1.4385] 1.28  0.2018
+Control CBM-I         .                 .    .       .
+Multicomponent   0.6315 [-0.1927; 1.4558] 1.50  0.1332
+Opposite CBM-A   0.9151 [ 0.0268; 1.8033] 2.02  0.0435
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-I'):
+                    SMD            95%-CI    z p-value
+CBM-A            0.6210 [-1.1999; 2.4420] 0.67  0.5039
+CBM-I            0.6114 [-0.6673; 1.8901] 0.94  0.3487
+Combined control 0.6182 [-1.2028; 2.4391] 0.67  0.5058
+Control CBM-A    0.5087 [-1.4119; 2.4293] 0.52  0.6037
+Control CBM-I         .                 .    .       .
+Multicomponent   0.6315 [-1.1825; 2.4456] 0.68  0.4950
+Opposite CBM-A   0.8905 [-1.1060; 2.8871] 0.87  0.3820
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.3399; tau = 0.5830; I^2 = 85.6% [68.3%; 93.5%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           27.83    4 < 0.0001
+Within designs   4.77    2   0.0921
+Between designs 23.06    2 < 0.0001
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+
+
+Table: Random-Effects NMA League Table
+
+|                 |    Control CBM-I    |    Control CBM-A    |        CBM-I        |  Combined control   |   Multicomponent    |        CBM-A        |   Opposite CBM-A    |
+|:----------------|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
+|Control CBM-I    |    Control CBM-I    |          .          | -0.61 [-1.89; 0.67] |          .          |          .          |          .          |          .          |
+|Control CBM-A    | -0.51 [-2.43; 1.41] |    Control CBM-A    |          .          |          .          |          .          | -0.21 [-0.84; 0.41] | 0.11 [-1.11; 1.34]  |
+|CBM-I            | -0.61 [-1.89; 0.67] | -0.10 [-1.54; 1.33] |        CBM-I        | -0.01 [-1.30; 1.29] | -0.02 [-1.31; 1.27] | -0.01 [-1.31; 1.29] |          .          |
+|Combined control | -0.62 [-2.44; 1.20] | -0.11 [-1.55; 1.33] | -0.01 [-1.30; 1.29] |  Combined control   | -0.01 [-1.30; 1.28] | -0.00 [-1.30; 1.30] |          .          |
+|Multicomponent   | -0.63 [-2.45; 1.18] | -0.12 [-1.55; 1.30] | -0.02 [-1.31; 1.27] | -0.01 [-1.30; 1.28] |   Multicomponent    | 0.01 [-1.28; 1.30]  |          .          |
+|CBM-A            | -0.62 [-2.44; 1.20] | -0.11 [-0.72; 0.50] | -0.01 [-1.31; 1.29] | -0.00 [-1.30; 1.30] | 0.01 [-1.28; 1.30]  |        CBM-A        | -0.32 [-1.18; 0.54] |
+|Opposite CBM-A   | -0.89 [-2.89; 1.11] | -0.38 [-1.29; 0.53] | -0.28 [-1.81; 1.25] | -0.27 [-1.81; 1.26] | -0.26 [-1.79; 1.27] | -0.27 [-1.09; 0.55] |   Opposite CBM-A    |
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                   comparison k prop     nma  direct  indir.    Diff     z  p-value
+          CBM-A:Control CBM-A 4 0.96  0.0537  0.1736 -2.6147  2.7883  4.75 < 0.0001
+         CBM-A:Opposite CBM-A 2 0.90 -0.2940 -0.3291  0.0348 -0.3640 -0.72   0.4691
+ Control CBM-A:Opposite CBM-A 1 0.58 -0.3478  0.1133 -0.9718  1.0851  3.20   0.0014
+
+Random effects model: 
+
+                   comparison k prop     nma  direct  indir.    Diff     z p-value
+          CBM-A:Control CBM-A 4 0.96  0.1123  0.2150 -2.6498  2.8648  1.71  0.0875
+         CBM-A:Opposite CBM-A 2 0.90 -0.2695 -0.3192  0.1668 -0.4860 -0.35  0.7244
+ Control CBM-A:Opposite CBM-A 1 0.56 -0.3818  0.1133 -1.0013  1.1146  1.19  0.2334
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           27.83  4 < 0.0001
+Within designs   4.77  2   0.0921
+Between designs 23.06  2 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+              Design    Q df p-value
+ CBM-A:Control CBM-A 4.77  2  0.0921
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+                    Detached design     Q df  p-value
+               CBM-A:Opposite CBM-A  0.54  1   0.4609
+                CBM-A:Control CBM-A 22.54  1 < 0.0001
+ CBM-A:Control CBM-A:Opposite CBM-A  0.00  0       --
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 8.15  2  0.0170     0.3017      0.0910
+                 SUCRA (common) SUCRA (random)
+Control CBM-I            0.9332         0.7683
+Control CBM-A            0.5402         0.5568
+CBM-I                    0.4820         0.4732
+CBM-A                    0.4675         0.4640
+Multicomponent           0.4672         0.4608
+Combined control         0.4895         0.4450
+Opposite CBM-A           0.1205         0.3318
+
+- based on 1000 simulations
+
+File created on 2025-10-27 by user jayceekennett

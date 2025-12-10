@@ -1,0 +1,108 @@
+Original data:
+
+                  treat1        treat2      TE   seTE
+Amir (2012)        CBM-I Control CBM-I -0.5029 0.2907
+Beard (2008)       CBM-I Control CBM-I -0.4882 0.3909
+Bowler (2012)      CBM-I      Waitlist -0.4350 0.3122
+Murphy (2007)      CBM-I Control CBM-I -0.3831 0.2632
+Sun (2019)         CBM-I Control CBM-I -0.3585 0.3270
+Terashima (2024a)  CBM-I      Waitlist -0.3733 0.3383
+
+Number of treatment arms (by study):
+                  narms
+Amir (2012)           2
+Beard (2008)          2
+Bowler (2012)         2
+Murphy (2007)         2
+Sun (2019)            2
+Terashima (2024a)     2
+
+Results (common effects model):
+
+                  treat1        treat2     SMD             95%-CI    Q leverage
+Amir (2012)        CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257] 0.07     0.28
+Beard (2008)       CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257] 0.02     0.16
+Bowler (2012)      CBM-I      Waitlist -0.4066 [-0.8563;  0.0431] 0.01     0.54
+Murphy (2007)      CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257] 0.03     0.34
+Sun (2019)         CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257] 0.04     0.22
+Terashima (2024a)  CBM-I      Waitlist -0.4066 [-0.8563;  0.0431] 0.01     0.46
+
+Results (random effects model):
+
+                  treat1        treat2     SMD             95%-CI
+Amir (2012)        CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257]
+Beard (2008)       CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257]
+Bowler (2012)      CBM-I      Waitlist -0.4066 [-0.8563;  0.0431]
+Murphy (2007)      CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257]
+Sun (2019)         CBM-I Control CBM-I -0.4276 [-0.7294; -0.1257]
+Terashima (2024a)  CBM-I      Waitlist -0.4066 [-0.8563;  0.0431]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Waitlist'):
+                  SMD            95%-CI     z p-value
+CBM-I         -0.4066 [-0.8563; 0.0431] -1.77  0.0764
+Control CBM-I  0.0209 [-0.5207; 0.5626]  0.08  0.9396
+Waitlist            .                 .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Waitlist'):
+                  SMD            95%-CI     z p-value
+CBM-I         -0.4066 [-0.8563; 0.0431] -1.77  0.0764
+Control CBM-I  0.0209 [-0.5207; 0.5626]  0.08  0.9396
+Waitlist            .                 .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.18    4  0.9961
+Within designs  0.18    4  0.9961
+Between designs 0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+
+
+Table: Random-Effects NMA League Table
+
+|              |        CBM-I         |       Waitlist       |    Control CBM-I     |
+|:-------------|:--------------------:|:--------------------:|:--------------------:|
+|CBM-I         |        CBM-I         | -0.41 [-0.86;  0.04] | -0.43 [-0.73; -0.13] |
+|Waitlist      | -0.41 [-0.86;  0.04] |       Waitlist       |          .           |
+|Control CBM-I | -0.43 [-0.73; -0.13] | -0.02 [-0.56;  0.52] |    Control CBM-I     |
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           0.18  4  0.9961
+Within designs  0.18  4  0.9961
+Between designs 0.00  0      --
+
+Design-specific decomposition of within-designs Q statistic
+
+              Design    Q df p-value
+      Waitlist:CBM-I 0.02  1  0.8934
+ CBM-I:Control CBM-I 0.16  3  0.9831
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.00  0      --          0           0
+              SUCRA (common) SUCRA (random)
+CBM-I                 0.9745         0.9785
+Waitlist              0.3065         0.2860
+Control CBM-I         0.2190         0.2355
+
+- based on 1000 simulations
+
+File created on 2025-10-27 by user jayceekennett

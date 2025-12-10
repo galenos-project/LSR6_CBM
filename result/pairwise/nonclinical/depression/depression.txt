@@ -1,0 +1,9 @@
+Number of observations: o = 173 (o.e = 134, o.c = 39)
+
+                    SMD            95%-CI     z p-value
+de Voogd (2018) -0.0692 [-0.4259; 0.2875] -0.38  0.7039
+
+Details:
+- Hedges' g (bias corrected standardised mean difference; using exact formulae)
+
+File created on 2025-10-27 by user jayceekennett

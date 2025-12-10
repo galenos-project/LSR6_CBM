@@ -1,0 +1,27 @@
+Number of studies: k = 18
+Number of observations: o = 1109.333 (o.e = 554.5, o.c = 554.8333)
+Number of events: e = 155
+
+                         OR           95%-CI    z p-value
+Common effect model  1.1599 [0.8197; 1.6413] 0.84  0.4024
+Random effects model 1.1215 [0.7721; 1.6290] 0.60  0.5472
+Prediction interval         [0.7503; 1.6762]             
+
+Quantifying heterogeneity (with 95%-CIs):
+ tau^2 < 0.0001 [0.0000; 1.7161]; tau = 0.0028 [0.0000; 1.3100]
+ I^2 = 0.0% [0.0%; 50.0%]; H = 1.00 [1.00; 1.41]
+
+Test of heterogeneity:
+     Q d.f. p-value
+ 16.99   17  0.4550
+
+Details of meta-analysis methods:
+- Mantel-Haenszel method (common effect model)
+- Inverse variance method (random effects model)
+- Restricted maximum-likelihood estimator for tau^2
+- Q-Profile method for confidence interval of tau^2 and tau
+- Calculation of I^2 based on Q
+- Prediction interval based on t-distribution (df = 17)
+- Continuity correction of 0.5 in studies with zero cell frequencies
+
+File created on 2025-10-27 by user jayceekennett

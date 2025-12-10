@@ -1,0 +1,53 @@
+# interevntion classification for pwma 
+
+control <- c(
+  "ABM non-contingency",
+  "Attention Control Condition (ACC)",
+  "Combined control",
+  "Control CBM-IS (CBM interpretation of the self)",
+  "Control AAT (Approach-Avoidance Training)",
+  "Control ABM",
+  "Control AIM",
+  "Control CBM-I",
+  "EMA (Ecological Momentary Assessment)",
+  "GC-MRT (Gaze-Contingent Music Reward Therapy) - shapes",
+  "ICC (Interpretation Control Condition)",
+  "Non-valence specific ABM",
+  "Sham/control",
+  "Virtual Reality Bias Modification (nonsocial focus)",
+  "control ABM 2D",
+  "control ABM 3D",
+  "Control CBM-A",
+  "TAU",
+  "Unsure" # this is specific to Heeren (2011) where control CBM-A was marked as unsure 
+  )
+
+active <- c(
+  "AAT (Approach-Avoidance Training)",
+  "ABM/CBM-A (Attention Bias Modification)",
+  "Attention Modification Program (AMP)",
+  "CBM-I with expectancy induction",
+  "CBM-I + imaginal exposure",
+  "CBM-IS (CBM intepretation of the self)",
+  "Explicit CBM-I",
+  "GC-MRT (Gaze-Contingent Music Reward Therapy)",
+  "IBM/CBM-I (Interpretive Bias Modification)",
+  "IMP (Interpretation Modification Program)",
+  "Combined CBM-I",
+  "Positive CBM-I",
+  "Virtual Reality Bias Modification (social focus)",
+  "Working memory training",
+  "ABM 2D",
+  "ABM 3D",
+  "CBM-A",
+  "CBM-I",
+  "CBM-I + imaginal exposure",
+  "CBM-I + neutral thinking",
+  "CBM-I positive",
+  "CBM-I benign",
+  "CBM-I with feedback",
+  "Combined CBM-I",
+  "Combined CBM (CBM-A + CBM-I)",
+  "Combined CBM",
+  "AIM"
+)

@@ -1,0 +1,119 @@
+Original data:
+
+                treat1         treat2      TE   seTE
+Amir (2010)      CBM-I  Control CBM-I -0.0000 0.2649
+Lau (2013a)      CBM-I Opposite CBM-I  0.2562 0.3175
+de Voogd (2018)  CBM-I  Control CBM-I  0.1289 0.1821
+
+Number of treatment arms (by study):
+                narms
+Amir (2010)         2
+Lau (2013a)         2
+de Voogd (2018)     2
+
+Results (common effects model):
+
+                treat1         treat2    SMD            95%-CI    Q leverage
+Amir (2010)      CBM-I  Control CBM-I 0.0875 [-0.2066; 0.3816] 0.11     0.32
+Lau (2013a)      CBM-I Opposite CBM-I 0.2562 [-0.3662; 0.8785] 0.00     1.00
+de Voogd (2018)  CBM-I  Control CBM-I 0.0875 [-0.2066; 0.3816] 0.05     0.68
+
+Results (random effects model):
+
+                treat1         treat2    SMD            95%-CI
+Amir (2010)      CBM-I  Control CBM-I 0.0875 [-0.2066; 0.3816]
+Lau (2013a)      CBM-I Opposite CBM-I 0.2562 [-0.3662; 0.8785]
+de Voogd (2018)  CBM-I  Control CBM-I 0.0875 [-0.2066; 0.3816]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-I'):
+                   SMD            95%-CI     z p-value
+CBM-I           0.0875 [-0.2066; 0.3816]  0.58  0.5597
+Control CBM-I        .                 .     .       .
+Opposite CBM-I -0.1686 [-0.8570; 0.5197] -0.48  0.6311
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-I'):
+                   SMD            95%-CI     z p-value
+CBM-I           0.0875 [-0.2066; 0.3816]  0.58  0.5597
+Control CBM-I        .                 .     .       .
+Opposite CBM-I -0.1686 [-0.8570; 0.5197] -0.48  0.6311
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.16    1  0.6885
+Within designs  0.16    1  0.6885
+Between designs 0.00    0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+
+
+Table: Random-Effects NMA League Table
+
+|               |   Opposite CBM-I    |    Control CBM-I    |        CBM-I        |
+|:--------------|:-------------------:|:-------------------:|:-------------------:|
+|Opposite CBM-I |   Opposite CBM-I    |          .          | -0.26 [-0.88; 0.37] |
+|Control CBM-I  | -0.17 [-0.86; 0.52] |    Control CBM-I    | -0.09 [-0.38; 0.21] |
+|CBM-I          | -0.26 [-0.88; 0.37] | -0.09 [-0.38; 0.21] |        CBM-I        |
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                   comparison k prop     nma direct  indir. Diff z p-value
+          CBM-I:Control CBM-I 2 1.00  0.0875 0.0875       .    . .       .
+         CBM-I:Opposite CBM-I 1 1.00  0.2562 0.2562       .    . .       .
+ Opposite CBM-I:Control CBM-I 0    0 -0.1686      . -0.1686    . .       .
+
+Random effects model: 
+
+                   comparison k prop     nma direct  indir. Diff z p-value
+          CBM-I:Control CBM-I 2 1.00  0.0875 0.0875       .    . .       .
+         CBM-I:Opposite CBM-I 1 1.00  0.2562 0.2562       .    . .       .
+ Opposite CBM-I:Control CBM-I 0    0 -0.1686      . -0.1686    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           0.16  1  0.6885
+Within designs  0.16  1  0.6885
+Between designs 0.00  0      --
+
+Design-specific decomposition of within-designs Q statistic
+
+              Design    Q df p-value
+ Control CBM-I:CBM-I 0.16  1  0.6885
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.00  0      --          0           0
+               P-score (common) P-score (random)
+Opposite CBM-I           0.7373           0.7373
+Control CBM-I            0.5178           0.5178
+CBM-I                    0.2449           0.2449
+
+File created on 2025-10-27 by user jayceekennett

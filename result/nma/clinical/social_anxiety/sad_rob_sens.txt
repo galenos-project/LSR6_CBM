@@ -1,0 +1,334 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                   treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Azriel (2024)                       CBM-A    Control CBM-A  0.2889 0.2843     0.2843     0.5341     2         
+Beard (2008)                        CBM-I    Control CBM-I -0.8271 0.4013     0.4013     0.6046     2         
+Boettcher (2012)                    CBM-A    Control CBM-A  0.4876 0.2462     0.2462     0.5149     2         
+Boettcher (2013)                    CBM-A    Control CBM-A  0.4652 0.2228     0.2728     0.6174     3        *
+Boettcher (2013)                    CBM-A   Opposite CBM-A  0.6502 0.2247     0.2775     0.6194     3        *
+Boettcher (2013)            Control CBM-A   Opposite CBM-A  0.1850 0.2212     0.2688     0.6156     3        *
+Bowler (2012)                       CBM-I         Waitlist -0.4643 0.3127     0.3127     0.5498     2         
+Britton (2015)                      CBM-A    Control CBM-A -0.2819 0.3670     0.3670     0.5823     2         
+Carlbring (2012)                    CBM-A    Control CBM-A  0.1547 0.2254     0.2254     0.5052     2         
+Carleton (2015)                     CBM-A    Control CBM-A -0.0461 0.2106     0.2106     0.4988     2         
+Carleton (2017)                     CBM-A    Control CBM-A  0.1830 0.2137     0.2137     0.5001     2         
+Choi (2024)                         CBM-I    Control CBM-I -0.0567 0.2415     0.2415     0.5126     2         
+Khalili-Torghabeh (2014)            CBM-I    Control CBM-I -1.3449 0.3745     0.3745     0.5871     2         
+Koc (2021)                  Control CBM-A   Multicomponent  0.6318 0.2542     0.2542     0.5187     2         
+Li (2008)                           CBM-A    Control CBM-A -0.2673 0.4301     0.4301     0.6240     2         
+Li (2024)                           CBM-A    Control CBM-A -0.4853 0.2675     0.3299     0.6446     3        *
+Li (2024)                           CBM-A   Opposite CBM-A -0.4228 0.2669     0.3283     0.6438     3        *
+Li (2024)                   Control CBM-A   Opposite CBM-A  0.0625 0.2627     0.3182     0.6386     3        *
+Liang (2016)                        CBM-A    Control CBM-A -0.4972 0.2393     0.2393     0.5116     2         
+Liu (2024)                          CBM-A    Control CBM-A -0.5895 0.2595     0.2595     0.5213     2         
+Ma (2020)                           CBM-A   Opposite CBM-A  0.1436 0.2065     0.2065     0.4971     2         
+Mao (2023)                          CBM-I         Waitlist -0.9049 0.3968     0.3968     0.6016     2         
+Maoz (2013)                         CBM-A    Control CBM-A -0.0513 0.2831     0.2831     0.5335     2         
+McNally (2013)                      CBM-A    Control CBM-A  0.2787 0.3259     0.3994     0.6829     3        *
+McNally (2013)                      CBM-A   Opposite CBM-A -0.0445 0.3204     0.3865     0.6751     3        *
+McNally (2013)              Control CBM-A   Opposite CBM-A -0.3232 0.3303     0.4107     0.6893     3        *
+Naim (2018)                         CBM-A            CBM-I -1.7341 0.3405     0.4433     0.7793     4        *
+Naim (2018)                         CBM-A Combined control -2.1730 0.3589     0.5218     0.8293     4        *
+Naim (2018)                         CBM-A   Multicomponent -2.9224 0.3869     0.7554     0.9175     4        *
+Naim (2018)                         CBM-I Combined control -0.4390 0.3143     0.4415     0.7768     4        *
+Naim (2018)              Combined control   Multicomponent -0.7494 0.3179     0.4081     0.7494     4        *
+Naim (2018)                         CBM-I   Multicomponent -1.1884 0.3223     0.4303     0.7698     4        *
+Neubauer (2013)                     CBM-A    Control CBM-A  0.0178 0.2887     0.2887     0.5365     2         
+Nowakowski (2015)                   CBM-I    Control CBM-I  0.0853 0.2888     0.2888     0.5365     2         
+Pan (2019)                          CBM-A    Control CBM-A -0.3200 0.3175     0.3934     0.6792     3        *
+Pan (2019)                          CBM-A         Waitlist -0.8494 0.3150     0.3868     0.6756     3        *
+Pan (2019)                  Control CBM-A         Waitlist -0.5294 0.3094     0.3736     0.6679     3        *
+Reyes (2020)                        CBM-I   Opposite CBM-I -0.7102 0.3182     0.3182     0.5529     2         
+Shafiei (2019)                      CBM-A    Control CBM-A -0.7737 0.3665     0.3665     0.5821     2         
+Terashima (2024a)                   CBM-I         Waitlist -0.1430 0.3253     0.3253     0.5570     2         
+Terashima (2024b)                   CBM-I         Waitlist -0.1686 0.2780     0.2780     0.5308     2         
+Yao (2015)                          CBM-A    Control CBM-A  0.1777 0.2568     0.2568     0.5200     2         
+de Rutte (2025)                     CBM-A    Control CBM-A -0.1949 0.1967     0.1967     0.4931     2         
+Lam (2025)                          CBM-I    Control CBM-I -0.3842 0.2652     0.2652     0.5242     2         
+
+Number of treatment arms (by study):
+                         narms
+Azriel (2024)                2
+Beard (2008)                 2
+Boettcher (2012)             2
+Boettcher (2013)             3
+Bowler (2012)                2
+Britton (2015)               2
+Carlbring (2012)             2
+Carleton (2015)              2
+Carleton (2017)              2
+Choi (2024)                  2
+Khalili-Torghabeh (2014)     2
+Koc (2021)                   2
+Li (2008)                    2
+Li (2024)                    3
+Liang (2016)                 2
+Liu (2024)                   2
+Ma (2020)                    2
+Mao (2023)                   2
+Maoz (2013)                  2
+McNally (2013)               3
+Naim (2018)                  4
+Neubauer (2013)              2
+Nowakowski (2015)            2
+Pan (2019)                   3
+Reyes (2020)                 2
+Shafiei (2019)               2
+Terashima (2024a)            2
+Terashima (2024b)            2
+Yao (2015)                   2
+de Rutte (2025)              2
+Lam (2025)                   2
+
+Results (common effects model):
+
+                                   treat1           treat2     SMD             95%-CI     Q leverage
+Azriel (2024)                       CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  1.83     0.05
+Beard (2008)                        CBM-I    Control CBM-I -0.3552 [-0.6155; -0.0949]  1.38     0.11
+Boettcher (2012)                    CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  5.61     0.06
+Boettcher (2013)                    CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  4.23        .
+Boettcher (2013)                    CBM-A   Opposite CBM-A  0.0733 [-0.1473;  0.2938]  4.32        .
+Boettcher (2013)            Control CBM-A   Opposite CBM-A  0.1690 [-0.0602;  0.3983]  0.00        .
+Bowler (2012)                       CBM-I         Waitlist -0.3523 [-0.6435; -0.0611]  0.13     0.23
+Britton (2015)                      CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.26     0.03
+Carlbring (2012)                    CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  1.24     0.07
+Carleton (2015)                     CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.06     0.08
+Carleton (2017)                     CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  1.70     0.08
+Choi (2024)                         CBM-I    Control CBM-I -0.3552 [-0.6155; -0.0949]  1.53     0.30
+Khalili-Torghabeh (2014)            CBM-I    Control CBM-I -0.3552 [-0.6155; -0.0949]  6.99     0.13
+Koc (2021)                  Control CBM-A   Multicomponent -0.4037 [-0.8062; -0.0011] 16.59     0.65
+Li (2008)                           CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.16     0.02
+Li (2024)                           CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  1.39        .
+Li (2024)                           CBM-A   Opposite CBM-A  0.0733 [-0.1473;  0.2938]  2.28        .
+Li (2024)                   Control CBM-A   Opposite CBM-A  0.1690 [-0.0602;  0.3983]  0.11        .
+Liang (2016)                        CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  2.81     0.06
+Liu (2024)                          CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  3.62     0.05
+Ma (2020)                           CBM-A   Opposite CBM-A  0.0733 [-0.1473;  0.2938]  0.12     0.30
+Mao (2023)                          CBM-I         Waitlist -0.3523 [-0.6435; -0.0611]  1.94     0.14
+Maoz (2013)                         CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.02     0.05
+McNally (2013)                      CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.88        .
+McNally (2013)                      CBM-A   Opposite CBM-A  0.0733 [-0.1473;  0.2938]  0.09        .
+McNally (2013)              Control CBM-A   Opposite CBM-A  0.1690 [-0.0602;  0.3983]  1.44        .
+Naim (2018)                         CBM-A            CBM-I -0.4029 [-0.8247;  0.0190]  9.02        .
+Naim (2018)                         CBM-A Combined control -0.7294 [-1.2984; -0.1604]  7.65        .
+Naim (2018)                         CBM-A   Multicomponent -0.4995 [-0.9095; -0.0894] 10.29        .
+Naim (2018)                         CBM-I Combined control -0.3266 [-0.9047;  0.2515]  0.06        .
+Naim (2018)              Combined control   Multicomponent  0.2300 [-0.3338;  0.7937]  5.76        .
+Naim (2018)                         CBM-I   Multicomponent -0.0966 [-0.5836;  0.3903]  6.44        .
+Neubauer (2013)                     CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.15     0.04
+Nowakowski (2015)                   CBM-I    Control CBM-I -0.3552 [-0.6155; -0.0949]  2.33     0.21
+Pan (2019)                          CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.32        .
+Pan (2019)                          CBM-A         Waitlist -0.7551 [-1.1688; -0.3415]  0.06        .
+Pan (2019)                  Control CBM-A         Waitlist -0.6593 [-1.0743; -0.2444]  0.12        .
+Reyes (2020)                        CBM-I   Opposite CBM-I -0.7102 [-1.3339; -0.0866]  0.00     1.00
+Shafiei (2019)                      CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  3.42     0.03
+Terashima (2024a)                   CBM-I         Waitlist -0.3523 [-0.6435; -0.0611]  0.41     0.21
+Terashima (2024b)                   CBM-I         Waitlist -0.3523 [-0.6435; -0.0611]  0.44     0.29
+Yao (2015)                          CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  1.13     0.06
+de Rutte (2025)                     CBM-A    Control CBM-A -0.0958 [-0.2143;  0.0227]  0.25     0.09
+Lam (2025)                          CBM-I    Control CBM-I -0.3552 [-0.6155; -0.0949]  0.01     0.25
+
+Results (random effects model):
+
+                                   treat1           treat2     SMD             95%-CI
+Azriel (2024)                       CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Beard (2008)                        CBM-I    Control CBM-I -0.4519 [-0.9336;  0.0298]
+Boettcher (2012)                    CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Boettcher (2013)                    CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Boettcher (2013)                    CBM-A   Opposite CBM-A  0.0026 [-0.4632;  0.4684]
+Boettcher (2013)            Control CBM-A   Opposite CBM-A  0.1515 [-0.3277;  0.6307]
+Bowler (2012)                       CBM-I         Waitlist -0.3466 [-0.8548;  0.1617]
+Britton (2015)                      CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Carlbring (2012)                    CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Carleton (2015)                     CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Carleton (2017)                     CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Choi (2024)                         CBM-I    Control CBM-I -0.4519 [-0.9336;  0.0298]
+Khalili-Torghabeh (2014)            CBM-I    Control CBM-I -0.4519 [-0.9336;  0.0298]
+Koc (2021)                  Control CBM-A   Multicomponent -0.7875 [-1.5322; -0.0428]
+Li (2008)                           CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Li (2024)                           CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Li (2024)                           CBM-A   Opposite CBM-A  0.0026 [-0.4632;  0.4684]
+Li (2024)                   Control CBM-A   Opposite CBM-A  0.1515 [-0.3277;  0.6307]
+Liang (2016)                        CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Liu (2024)                          CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Ma (2020)                           CBM-A   Opposite CBM-A  0.0026 [-0.4632;  0.4684]
+Mao (2023)                          CBM-I         Waitlist -0.3466 [-0.8548;  0.1617]
+Maoz (2013)                         CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+McNally (2013)                      CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+McNally (2013)                      CBM-A   Opposite CBM-A  0.0026 [-0.4632;  0.4684]
+McNally (2013)              Control CBM-A   Opposite CBM-A  0.1515 [-0.3277;  0.6307]
+Naim (2018)                         CBM-A            CBM-I -0.5617 [-1.3060;  0.1827]
+Naim (2018)                         CBM-A Combined control -1.0529 [-2.0363; -0.0696]
+Naim (2018)                         CBM-A   Multicomponent -0.9364 [-1.6887; -0.1841]
+Naim (2018)                         CBM-I Combined control -0.4913 [-1.5003;  0.5177]
+Naim (2018)              Combined control   Multicomponent  0.1165 [-0.8846;  1.1176]
+Naim (2018)                         CBM-I   Multicomponent -0.3748 [-1.2520;  0.5025]
+Neubauer (2013)                     CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Nowakowski (2015)                   CBM-I    Control CBM-I -0.4519 [-0.9336;  0.0298]
+Pan (2019)                          CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Pan (2019)                          CBM-A         Waitlist -0.9082 [-1.6389; -0.1775]
+Pan (2019)                  Control CBM-A         Waitlist -0.7593 [-1.4962; -0.0225]
+Reyes (2020)                        CBM-I   Opposite CBM-I -0.7102 [-1.7939;  0.3734]
+Shafiei (2019)                      CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Terashima (2024a)                   CBM-I         Waitlist -0.3466 [-0.8548;  0.1617]
+Terashima (2024b)                   CBM-I         Waitlist -0.3466 [-0.8548;  0.1617]
+Yao (2015)                          CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+de Rutte (2025)                     CBM-A    Control CBM-A -0.1489 [-0.3892;  0.0914]
+Lam (2025)                          CBM-I    Control CBM-I -0.4519 [-0.9336;  0.0298]
+
+Number of studies: k = 31
+Number of pairwise comparisons: m = 44
+Number of treatments: n = 9
+Number of designs: d = 9
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-A'):
+                     SMD            95%-CI     z p-value
+CBM-A            -0.0958 [-0.2143; 0.0227] -1.58  0.1131
+CBM-I             0.3071 [-0.1167; 0.7309]  1.42  0.1555
+Combined control  0.6336 [ 0.0633; 1.2040]  2.18  0.0295
+Control CBM-A          .                 .     .       .
+Control CBM-I     0.6623 [ 0.1649; 1.1596]  2.61  0.0091
+Multicomponent    0.4037 [ 0.0011; 0.8062]  1.97  0.0494
+Opposite CBM-A   -0.1690 [-0.3983; 0.0602] -1.45  0.1484
+Opposite CBM-I    1.0173 [ 0.2633; 1.7713]  2.64  0.0082
+Waitlist          0.6593 [ 0.2444; 1.0743]  3.11  0.0018
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'Control CBM-A'):
+                     SMD            95%-CI     z p-value
+CBM-A            -0.1489 [-0.3892; 0.0914] -1.21  0.2247
+CBM-I             0.4128 [-0.3399; 1.1654]  1.07  0.2824
+Combined control  0.9040 [-0.0880; 1.8961]  1.79  0.0741
+Control CBM-A          .                 .     .       .
+Control CBM-I     0.8647 [-0.0289; 1.7583]  1.90  0.0579
+Multicomponent    0.7875 [ 0.0428; 1.5322]  2.07  0.0382
+Opposite CBM-A   -0.1515 [-0.6307; 0.3277] -0.62  0.5355
+Opposite CBM-I    1.1230 [-0.1964; 2.4424]  1.67  0.0953
+Waitlist          0.7593 [ 0.0225; 1.4962]  2.02  0.0434
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.2045; tau = 0.4522; I^2 = 73.3% [61.7%; 81.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           108.62   29 < 0.0001
+Within designs   49.85   24   0.0015
+Between designs  58.77    5 < 0.0001
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+
+
+
+Table: Random-Effects NMA League Table
+
+|                 |        CBM-A         |        CBM-I         |   Combined control   |    Control CBM-A     |    Control CBM-I     |    Multicomponent    |    Opposite CBM-A    |    Opposite CBM-I    |       Waitlist       |
+|:----------------|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|CBM-A            |        CBM-A         | -1.73 [-2.84; -0.62] | -2.17 [-3.30; -1.04] | -0.07 [-0.31;  0.18] |          .           | -2.92 [-4.09; -1.76] | 0.10 [-0.41;  0.61]  |          .           | -0.85 [-1.93;  0.23] |
+|CBM-I            | -0.56 [-1.31;  0.18] |        CBM-I         | -0.44 [-1.52;  0.64] |          .           | -0.45 [-0.93;  0.03] | -1.19 [-2.28; -0.10] |          .           | -0.71 [-1.79;  0.37] | -0.40 [-0.94;  0.15] |
+|Combined control | -1.05 [-2.04; -0.07] | -0.49 [-1.50;  0.52] |   Combined control   |          .           |          .           | -0.75 [-1.83;  0.33] |          .           |          .           |          .           |
+|Control CBM-A    | -0.15 [-0.39;  0.09] | 0.41 [-0.34;  1.17]  | 0.90 [-0.09;  1.90]  |    Control CBM-A     |          .           | 0.63 [-0.38;  1.65]  | -0.01 [-0.60;  0.59] |          .           | -0.53 [-1.60;  0.54] |
+|Control CBM-I    | -1.01 [-1.90; -0.13] | -0.45 [-0.93;  0.03] | 0.04 [-1.08;  1.16]  | -0.86 [-1.76;  0.03] |    Control CBM-I     |          .           |          .           |          .           |          .           |
+|Multicomponent   | -0.94 [-1.69; -0.18] | -0.37 [-1.25;  0.50] | 0.12 [-0.88;  1.12]  | -0.79 [-1.53; -0.04] | 0.08 [-0.92;  1.08]  |    Multicomponent    |          .           |          .           |          .           |
+|Opposite CBM-A   | 0.00 [-0.46;  0.47]  | 0.56 [-0.30;  1.43]  | 1.06 [-0.03;  2.14]  | 0.15 [-0.33;  0.63]  | 1.02 [ 0.02;  2.01]  | 0.94 [ 0.07;  1.81]  |    Opposite CBM-A    |          .           |          .           |
+|Opposite CBM-I   | -1.27 [-2.59;  0.04] | -0.71 [-1.79;  0.37] | -0.22 [-1.70;  1.26] | -1.12 [-2.44;  0.20] | -0.26 [-1.44;  0.93] | -0.34 [-1.73;  1.06] | -1.27 [-2.66;  0.11] |    Opposite CBM-I    |          .           |
+|Waitlist         | -0.91 [-1.64; -0.18] | -0.35 [-0.85;  0.16] | 0.14 [-0.91;  1.20]  | -0.76 [-1.50; -0.02] | 0.11 [-0.59;  0.81]  | 0.03 [-0.88;  0.94]  | -0.91 [-1.77; -0.06] | 0.36 [-0.83;  1.56]  |       Waitlist       |
+
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                      comparison  k prop     nma  direct  indir.    Diff     z  p-value
+                     CBM-A:CBM-I  1 0.40 -0.4029 -1.7341  0.4829 -2.2170 -5.04 < 0.0001
+          CBM-A:Combined control  1 0.65 -0.7294 -2.1730  2.0037 -4.1768 -6.84 < 0.0001
+             CBM-A:Control CBM-A 18 0.97 -0.0958 -0.0372 -1.8032  1.7661  5.23 < 0.0001
+            CBM-A:Multicomponent  1 0.29 -0.4995 -2.9224  0.5017 -3.4242 -7.44 < 0.0001
+            CBM-A:Opposite CBM-A  4 0.85  0.0733  0.1473 -0.3428  0.4901  1.56   0.1188
+                  CBM-A:Waitlist  1 0.45 -0.7551 -0.8494 -0.6783 -0.1711 -0.40   0.6868
+          CBM-I:Combined control  1 0.88 -0.3266 -0.4390  0.5025 -0.9415 -1.03   0.3007
+            CBM-I:Multicomponent  1 0.59 -0.0966 -1.1884  1.5033 -2.6917 -5.32 < 0.0001
+                  CBM-I:Waitlist  4 0.86 -0.3523 -0.3600 -0.3048 -0.0552 -0.13   0.8974
+ Combined control:Multicomponent  1 0.82  0.2300 -0.7494  4.6532 -5.4026 -7.24 < 0.0001
+    Multicomponent:Control CBM-A  1 0.65  0.4037 -0.6318  2.3502 -2.9820 -6.91 < 0.0001
+    Opposite CBM-A:Control CBM-A  3 0.60 -0.1690 -0.0391 -0.3667  0.3275  1.37   0.1707
+          Waitlist:Control CBM-A  1 0.47  0.6593  0.5294  0.7738 -0.2444 -0.58   0.5645
+
+Random effects model: 
+
+                      comparison  k prop     nma  direct  indir.    Diff     z  p-value
+                     CBM-A:CBM-I  1 0.45 -0.5617 -1.7341  0.3982 -2.1323 -2.79   0.0052
+          CBM-A:Combined control  1 0.76 -1.0529 -2.1730  2.4048 -4.5779 -3.92 < 0.0001
+             CBM-A:Control CBM-A 18 0.96 -0.1489 -0.0657 -2.3040  2.2383  3.45   0.0006
+            CBM-A:Multicomponent  1 0.42 -0.9364 -2.9224  0.4780 -3.4004 -4.37 < 0.0001
+            CBM-A:Opposite CBM-A  4 0.84  0.0026  0.0978 -0.4925  0.5904  0.91   0.3608
+                  CBM-A:Waitlist  1 0.46 -0.9082 -0.8494 -0.9579  0.1085  0.14   0.8847
+          CBM-I:Combined control  1 0.87 -0.4913 -0.4390 -0.8538  0.4148  0.27   0.7891
+            CBM-I:Multicomponent  1 0.65 -0.3748 -1.1884  1.1343 -2.3227 -2.48   0.0133
+                  CBM-I:Waitlist  4 0.86 -0.3466 -0.3967 -0.0290 -0.3678 -0.49   0.6264
+ Combined control:Multicomponent  1 0.85  0.1165 -0.7494  5.1780 -5.9274 -4.10 < 0.0001
+    Multicomponent:Control CBM-A  1 0.54  0.7875 -0.6318  2.4306 -3.0624 -4.02 < 0.0001
+    Opposite CBM-A:Control CBM-A  3 0.65 -0.1515  0.0067 -0.4391  0.4458  0.87   0.3830
+          Waitlist:Control CBM-A  1 0.47  0.7593  0.5294  0.9640 -0.4346 -0.58   0.5640
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Q statistics to assess homogeneity / consistency
+
+                     Q df  p-value
+Total           108.62 29 < 0.0001
+Within designs   49.85 24   0.0015
+Between designs  58.77  5 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+                             Design     Q df p-value
+ Control CBM-A:CBM-A:Opposite CBM-A 12.75  4  0.0126
+                CBM-I:Control CBM-I 12.24  4  0.0157
+                Control CBM-A:CBM-A 21.95 13  0.0562
+                     CBM-I:Waitlist  2.92  3  0.4049
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+                    Detached design     Q df  p-value
+       Control CBM-A:Multicomponent 10.99  4   0.0267
+                Control CBM-A:CBM-A 57.33  4 < 0.0001
+               CBM-A:Opposite CBM-A 58.60  4 < 0.0001
+                     CBM-I:Waitlist 58.75  4 < 0.0001
+ Control CBM-A:CBM-A:Opposite CBM-A 56.21  3 < 0.0001
+       Control CBM-A:CBM-A:Waitlist 58.23  3 < 0.0001
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df  p-value tau.within tau2.within
+Between designs 33.11  5 < 0.0001     0.2834      0.0803
+
+                 SUCRA (common) SUCRA (random)
+CBM-A                    0.8852         0.8847
+Opposite CBM-A           0.9228         0.8735
+Control CBM-A            0.8010         0.8059
+CBM-I                    0.5638         0.5539
+Multicomponent           0.4704         0.3275
+Waitlist                 0.2426         0.3193
+Combined control         0.2804         0.2829
+Control CBM-I            0.2615         0.2634
+Opposite CBM-I           0.0724         0.1890
+
+- based on 1000 simulations
+
+File created on 2025-10-27 by user jayceekennett

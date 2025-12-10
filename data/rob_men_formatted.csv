@@ -1,0 +1,49 @@
+Comparison,% contribution of evidence from pairwise comparisons with suspected bias,.,Evaluation of contribution from evidence with suspected bias,Bias assessment for indirect evidence,NMA treatment effect,NMR treatment effects at the smallest observed variance,Evaluation of small study effects,Overall risk of bias
+.,Favouring first treatment,Favouring second treatment,.,.,SMD (95%CI),SMD (95%CI),.,.
+Mixed/only direct,.,.,.,.,.,.,.,.
+CBM-A:CBM-I,6.9,0,No bias detected,.,"0.63 (-0.19,1.45)","1.6 (0.72,2.64)",Small study effects favouring CBM-I,Some concerns
+CBM-A:Combined control,4.5,0,No bias detected,.,"1.09 (0.04,2.17)","2.06 (1.05,3.08)",No evidence of small study effects,Low risk
+CBM-A:Control CBM-A,89.7,0,Substantial contibution from bias favouring CBM-A,.,"0.16 (-0.09,0.42)","0.12 (-0.15,0.39)",No evidence of small study effects,Some concerns
+CBM-A:Multicomponent,10.8,0,No bias detected,.,"1.05 (0.26,1.86)","2.81 (1.79,3.8)",Small study effects favouring CBM-A,Some concerns
+CBM-A:Opposite CBM-A,78.4,19.5,Substantial contibution from bias favouring CBM-A,.,"0 (-0.53,0.53)","-0.16 (-0.66,0.36)",No evidence of small study effects,Some concerns
+CBM-A:Waitlist,13,0,No bias detected,.,"0.82 (0.02,1.61)","1.49 (0.44,2.73)",No evidence of small study effects,Low risk
+CBM-I:Combined control,0,0,No bias detected,.,"0.47 (-0.62,1.57)","0.44 (-0.46,1.31)",No evidence of small study effects,Low risk
+CBM-I:Control CBM-I,100,0,Substantial contibution from bias favouring CBM-I,.,"0.43 (-0.02,0.87)","0.27 (-0.2,0.76)",No evidence of small study effects,Some concerns
+CBM-I:Multicomponent,0,0,No bias detected,.,"0.43 (-0.53,1.37)","1.19 (0.29,2.02)",No evidence of small study effects,Low risk
+CBM-I:Opposite CBM-I,100,0,Substantial contibution from bias favouring CBM-I,.,"0.69 (-0.49,1.88)","0.7 (-0.99,2.61)",No evidence of small study effects,Some concerns
+CBM-I:TAU,0,0,No bias detected,.,"0.51 (-0.29,1.3)","0.8 (-0.05,1.81)",No evidence of small study effects,Low risk
+CBM-I:Waitlist,0,0,No bias detected,.,"0.19 (-0.31,0.69)","-0.11 (-0.74,0.54)",No evidence of small study effects,Low risk
+Combined control:Multicomponent,0,0,No bias detected,.,"-0.04 (-1.15,1.02)","0.74 (-0.15,1.63)",No evidence of small study effects,Low risk
+Control CBM-A:Multicomponent,0,0,No bias detected,.,"0.89 (0.11,1.69)","2.7 (1.64,3.7)",Small study effects favouring control CBM-A,Some concerns
+Control CBM-A:Opposite CBM-A,0,47,Substantial contibution from bias favouring opposite CBM-A,.,"-0.16 (-0.7,0.37)","-0.27 (-0.79,0.25)",No evidence of small study effects,Some concerns
+Control CBM-A:Waitlist,0,0,No bias detected,.,"0.66 (-0.15,1.46)","1.37 (0.32,2.61)",No evidence of small study effects,Low risk
+Indirect,.,.,.,.,.,.,.,.
+Multicomponent:Waitlist,0,0,No bias detected,No bias detected,"-0.24 (-1.22,0.75)","-1.29 (-2.35,-0.19)",Small study effects favouring waitlist,Low risk
+CBM-A:Control CBM-I,5.2,0,No bias detected,No bias detected,"1.05 (0.14,1.99)","1.88 (0.88,3.01)",No evidence of small study effects,Low risk
+CBM-A:Opposite CBM-I,5.2,0,No bias detected,No bias detected,"1.32 (-0.12,2.76)","2.28 (0.61,4.55)",No evidence of small study effects,Low risk
+CBM-A:TAU,5.2,0,No bias detected,No bias detected,"1.13 (0,2.29)","2.4 (1.12,3.98)",Small study effects favouring CBM-A,Low risk
+CBM-I:Control CBM-A,0,0,No bias detected,No bias detected,"-0.46 (-1.28,0.36)","-1.48 (-2.54,-0.57)",Small study effects favouring control CBM-A,Low risk
+CBM-I:Opposite CBM-A,0,12.4,No bias detected,No bias detected,"-0.63 (-1.58,0.33)","-1.76 (-2.87,-0.73)",Small study effects favouring opposite CBM-A,Low risk
+Combined control:Control CBM-A,0,0,No bias detected,No bias detected,"-0.93 (-2.02,0.12)","-1.95 (-2.98,-0.9)",No evidence of small study effects,Low risk
+Combined control:Control CBM-I,0,0,No bias detected,No bias detected,"-0.04 (-1.24,1.14)","-0.17 (-1.15,0.87)",No evidence of small study effects,Low risk
+Combined control:Opposite CBM-A,0,10.8,No bias detected,No bias detected,"-1.09 (-2.28,0.08)","-2.22 (-3.34,-1.07)",No evidence of small study effects,Low risk
+Combined control:Opposite CBM-I,0,0,No bias detected,No bias detected,"0.23 (-1.43,1.84)","0.26 (-1.51,2.31)",No evidence of small study effects,Low risk
+Combined control:TAU,0,0,No bias detected,No bias detected,"0.03 (-1.32,1.4)","0.36 (-0.83,1.74)",No evidence of small study effects,Low risk
+Combined control:Waitlist,0,0,No bias detected,No bias detected,"-0.28 (-1.43,0.84)","-0.55 (-1.62,0.55)",No evidence of small study effects,Low risk
+Control CBM-A:Control CBM-I,0,0,No bias detected,No bias detected,"0.89 (-0.02,1.83)","1.76 (0.74,2.94)",No evidence of small study effects,Low risk
+Control CBM-A:Opposite CBM-I,0,0,No bias detected,No bias detected,"1.16 (-0.27,2.61)","2.16 (0.48,4.47)",No evidence of small study effects,Low risk
+Control CBM-A:TAU,0,0,No bias detected,No bias detected,"0.97 (-0.17,2.1)","2.28 (0.98,3.9)",Small study effects favouring control CBM-A,Low risk
+Control CBM-I:Multicomponent,0,0,No bias detected,No bias detected,"0 (-1.07,1.05)","0.91 (-0.1,1.88)",No evidence of small study effects,Low risk
+Control CBM-I:Opposite CBM-A,0,9.5,No bias detected,No bias detected,"-1.06 (-2.12,0.01)","-2.04 (-3.22,-0.89)",No evidence of small study effects,Low risk
+Control CBM-I:Opposite CBM-I,0,0,No bias detected,No bias detected,"0.27 (-1.01,1.55)","0.43 (-1.34,2.41)",No evidence of small study effects,Low risk
+Control CBM-I:TAU,0,0,No bias detected,No bias detected,"0.08 (-0.83,0.98)","0.53 (-0.47,1.65)",No evidence of small study effects,Low risk
+Control CBM-I:Waitlist,0,0,No bias detected,No bias detected,"-0.24 (-0.91,0.43)","-0.38 (-1.19,0.43)",No evidence of small study effects,Low risk
+Multicomponent:Opposite CBM-A,0,15.3,Substantial contibution from bias favouring opposite CBM-A,No bias detected,"-1.05 (-2,-0.13)","-2.97 (-4.04,-1.8)",Small study effects favouring opposite CBM-A,High risk
+Multicomponent:Opposite CBM-I,0,0,No bias detected,No bias detected,"0.28 (-1.25,1.77)","-0.47 (-2.29,1.56)",No evidence of small study effects,Low risk
+Multicomponent:TAU,0,0,No bias detected,No bias detected,"0.08 (-1.16,1.33)","-0.37 (-1.51,0.93)",No evidence of small study effects,Low risk
+Opposite CBM-A:Opposite CBM-I,9.5,0,No bias detected,No bias detected,"1.33 (-0.2,2.84)","2.44 (0.69,4.71)",No evidence of small study effects,Low risk
+Opposite CBM-A:TAU,9.5,0,No bias detected,No bias detected,"1.13 (-0.1,2.38)","2.57 (1.15,4.19)",Small study effects favouring opposite CBM-A,Low risk
+Opposite CBM-A:Waitlist,16.4,0,Substantial contibution from bias favouring opposite CBM-A,No bias detected,"0.82 (-0.13,1.78)","1.64 (0.52,2.94)",No evidence of small study effects,Some concerns
+Opposite CBM-I:TAU,0,0,No bias detected,No bias detected,"-0.19 (-1.63,1.26)","0.07 (-1.68,2.08)",No evidence of small study effects,Low risk
+Opposite CBM-I:Waitlist,0,0,No bias detected,No bias detected,"-0.51 (-1.79,0.8)","-0.83 (-2.81,1.05)",No evidence of small study effects,Low risk
+TAU:Waitlist,0,0,No bias detected,No bias detected,"-0.32 (-1.26,0.62)","-0.92 (-2.04,0.16)",No evidence of small study effects,Low risk

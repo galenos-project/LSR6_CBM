@@ -1,0 +1,196 @@
+﻿Study label,Country,Intervention,Participants (n),Female participants,Mean age,Duration of treatment,Target of intervention,Mode of intervention,Stimuli used,Target bias,Number of sessions
+Amir (2008),USA, Control CBM-A,53,25,19.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Amir (2008),USA,CBM-A,47,23,19.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Amir (2009),USA,CBM-A,22,14,27.6,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Amir (2009),USA, Control CBM-A,26,14,31.1,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Amir (2010),USA, Control CBM-I,28,17,20.0,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Amir (2010),USA,CBM-I,29,13,19.0,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Amir (2012),USA, Control CBM-I,26,16,33.1,6 weeks,Interpretation bias,Computer,Sentences,Interpretation,12
+Amir (2012),USA,CBM-I,23,19,28.9,6 weeks,Interpretation bias,Computer,Sentences,Interpretation,12
+Asnaani (2014),USA,AAT,21,NR,NR,1 week,Attentional bias,internet,Faces,Attentional,3
+Asnaani (2014),USA, Control AAT,22,NR,NR,1 week,Attentional bias,internet,Faces,Attentional,3
+Azriel (2024),Israel, Control CBM-I,25,14,30.3,4 weeks,Attentional bias,Computer,Faces; shapes; music,Attentional,8
+Azriel (2024),Israel,CBM-I,25,9,30.0,4 weeks,Attentional bias,Computer,Faces; shapes; music,Attentional,8
+Baert (2012),Belgium,CBM-A,14,6,26.4,6 days,Attentional bias,Computer,Faces,Attentional,6
+Baert (2012),Belgium, Control CBM-A,14,11,26.6,6 days,Attentional bias,Computer,Faces,Attentional,6
+Beard (2008),USA, Control CBM-I,14,13,20.0,4 weeks,Attentional bias,Computer; internet,Sentences,Interpretation,6
+Beard (2008),USA,CBM-I,13,12,19.0,4 weeks,Attentional bias,Computer; internet,Sentences,Interpretation,6
+Boettcher (2012),Switzerland; Germany,CBM-A,33,12,37.5,4 weeks,Approach bias,Computer,Faces,approach_bias,8
+Boettcher (2012),Switzerland; Germany, Control CBM-A,35,13,38.3,4 weeks,Approach bias,Computer,Faces,approach_bias,8
+Boettcher (2013),Sweden,CBM-A,43,26,,2 weeks,Attentional bias,Computer; internet,"Faces, words",Attentional,14
+Boettcher (2013),Sweden, Control CBM-A,43,23,,2 weeks,Attentional bias,Computer; internet,"Faces, words",Attentional,14
+Boettcher (2013),Sweden, Opposite CBM-A,43,33,,2 weeks,Attentional bias,Computer; internet,"Faces, words",Attentional,14
+Bomyea (2023),USA,AAT,21,16,22.7,2 weeks,Attentional bias,Computer,Faces,Attentional,4
+Bomyea (2023),USA, Control AAT,24,14,23.4,2 weeks,Attentional bias,Computer,Faces,Attentional,4
+Bowler (2012),UK,CBM-I,25,16,24.1,2 weeks,Interpretation bias,Computer,Sentences,Interpretation,4
+Bowler (2012),UK, Waitlist,22,13,22.0,2 weeks,Interpretation bias,Computer,Sentences,Interpretation,4
+Britton (2015),USA,CBM-A,26,12,21.8,4 weeks,Attentional bias,Computer,Words,Attentional,9
+Britton (2015),USA, Control CBM-A,27,8,22.1,4 weeks,Attentional bias,Computer,Words,Attentional,9
+Carey (2020),UK,CBM-A,12,NR,32.8,Single session,Attentional bias,Computer,Words,Attentional,1
+Carey (2020),UK, Control CBM-A,11,NR,30.7,Single session,Attentional bias,Computer,Words,Attentional,1
+Carlbring (2012),Sweden,CBM-A,40,14,35.1,4 weeks,Attentional bias,Computer; internet,Faces,Attentional,8
+Carlbring (2012),Sweden, Control CBM-A,39,28,38.0,4 weeks,Attentional bias,Computer; internet,Faces,Attentional,8
+Carleton (2015),Canada, Control CBM-A,31,NR,NR,4 weeks,Interpretation bias,Computer (in person or remote),Words,Interpretation,8
+Carleton (2015),Canada, Control CBM-A,26,NR,NR,4 weeks,Interpretation bias,Computer (in person or remote),Words,Interpretation,8
+Carleton (2015),Canada,CBM-A,26,NR,NR,4 weeks,Interpretation bias,Computer (in person or remote),Words,Interpretation,8
+Carleton (2015),Canada,CBM-A,25,NR,NR,4 weeks,Interpretation bias,Computer (in person or remote),Words,Interpretation,8
+Carleton (2017),Canada,CBM-A,57,NR,NR,4 weeks,Interpretation bias,Computer,Words,Interpretation,8
+Carleton (2017),Canada, Control CBM-A,56,NR,NR,4 weeks,Interpretation bias,Computer,Words,Interpretation,8
+Choi (2024),Korea,CBM-I,37,25,22.0,Single session,Interpretation bias,Computer,Faces,Interpretation,1
+Choi (2024),Korea, Control CBM-I,32,24,23.2,Single session,Interpretation bias,Computer,Faces,Interpretation,1
+Daniel (2020),USA,CBM-I,51,38,20.7,5 weeks,Interpretation bias,Computer,Sentences,Interpretation,6
+Daniel (2020),USA, Waitlist,55,40,20.2,5 weeks,Interpretation bias,Computer,Sentences,Interpretation,6
+de Rutte (2025),USA,CBM-A,54,38,38.5,4 weeks,Attentional bias,Smartphone,Faces,Attentional,16
+de Rutte (2025),USA, Control CBM-A,50,41,37.7,4 weeks,Attentional bias,Smartphone,Faces,Attentional,16
+de Voogd (2018),Netherlands,CBM-I,142,82,14.3,4 weeks,Interpretation bias,Computer,Sentences,Interpretation,8
+de Voogd (2018),Netherlands, Control CBM-I,42,23,14.5,4 weeks,Interpretation bias,Computer,Sentences,Interpretation,8
+Dennis (2014),US, Control CBM-A,19,15,20.7,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Dennis (2014),US,CBM-A,19,12,21.9,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Dennis (2014),US,CBM-A,18,11,20.7,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Dennis (2014),US, Control CBM-A,20,16,19.8,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Dennis-Tiwary (2016),USA,CBM-A,19,11,NR,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Dennis-Tiwary (2016),USA, Control CBM-A,23,10,NR,Single session,Attentional bias,Smartphone; internet,Gamified scenarios,Attentional,1
+Edwards (2018),USA,CBM-I,123,88,32.9,Single session,Interpretation bias,Computer; internet,Sentences; imagined scenarios,Interpretation,1
+Edwards (2018),USA,CBM-I,134,81,37.1,Single session,Interpretation bias,Computer; internet,Sentences; imagined scenarios,Interpretation,1
+Edwards (2018),USA, Control CBM-I,122,86,36.9,Single session,Interpretation bias,Computer; internet,Sentences; imagined scenarios,Interpretation,1
+Enock (2014),USA,CBM-A,158,NR,NR,4 weeks,Attentional bias,Smartphone,Faces,Attentional,84
+Enock (2014),USA, Control CBM-A,141,NR,NR,4 weeks,Attentional bias,Smartphone,Faces,Attentional,84
+Enock (2014),USA, Waitlist,27,NR,NR,4 weeks,Attentional bias,Smartphone,Faces,Attentional,84
+Fadardi (2023),Iran,CBM-A,15,NR,NR,2 weeks,Attentional bias,Computer,Faces,Attentional,4
+Fadardi (2023),Iran, Control CBM-A,15,NR,NR,2 weeks,Attentional bias,Computer,Faces,Attentional,4
+Fitzgerald (2016),Ireland,CBM-A,66,36,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Fitzgerald (2016),Ireland, Control CBM-A,64,34,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Frommelt (2023),Germany,CBM-I,8,6,24.8,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Frommelt (2023),Germany,CBM-I,10,6,27.4,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Frommelt (2023),Germany, Control CBM-I,5,4,23.5,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Frommelt (2023),Germany, Control CBM-I,11,6,29.8,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Heeren (2015),Belgium,CBM-A,22,20,24.4,1 day,Attentional bias,Computer,Words,Attentional,2
+Heeren (2015),Belgium, Control CBM-A,18,13,24.7,1 day,Attentional bias,Computer,Words,Attentional,2
+Heeren (2015),Belgium, Opposite ABM,21,17,23.6,1 day,Attentional bias,Computer,Words,Attentional,2
+Hoppitt (2014),UK,CBM-I,35,NR,NR,2 weeks,Interpretation bias,Computer,Words,Interpretation,5
+Hoppitt (2014),UK, Control CBM-I,34,NR,NR,2 weeks,Interpretation bias,Computer,Words,Interpretation,5
+Julian (2012),USA, Control CBM-A,28,24,20.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Julian (2012),USA,CBM-A,28,23,19.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Julian (2012),USA, Control CBM-A,28,22,20.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Julian (2012),USA,CBM-A,28,22,21.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Khalili-Torghabeh (2014),Iran, Control CBM-I,18,11,22.4,1 week,Attentional bias,Computer,Sentences,Attentional,4
+Khalili-Torghabeh (2014),Iran,CBM-I,18,13,23.3,1 week,Attentional bias,Computer,Sentences,Attentional,4
+Klumpp (2010),USA,CBM-A,31,13,19.3,Single session,Interpretation bias; Attentional bias,Computer,Faces,multiple,1
+Klumpp (2010),USA, Opposite CBM-A,34,14,19.7,Single session,Interpretation bias; Attentional bias,Computer,Faces,multiple,1
+Klumpp (2010),USA, Control CBM-A,22,7,19.8,Single session,Interpretation bias; Attentional bias,Computer,Faces,multiple,1
+Koc (2021),Turkey, Control CBM-A,38,NR,NR,4 weeks,Interpretation bias; Attentional bias,Computer,Faces; Sentences,multiple,8
+Koc (2021),Turkey,CBM-A + CBM-I,46,NR,NR,4 weeks,Interpretation bias; Attentional bias,Computer,Faces; Sentences,multiple,8
+Lam (2025),China,CBM-I,35,15,24.5,4 days,Interpretation bias,Computer,Sentences,Interpretation,5
+Lam (2025),China, Control CBM-I,36,13,26.3,4 days,Interpretation bias,Computer,Sentences,Interpretation,5
+Lau (2013a),UK,CBM-I,20,NR,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Lau (2013a),UK, Opposite CBM-I,20,NR,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Lau (2013b),UK,CBM-I,19,NR,NR,5 days,Interpretation bias,Computer,Sentences,Interpretation,3
+Lau (2013b),UK,CBM-I,17,NR,NR,5 days,Interpretation bias,Computer,Sentences,Interpretation,3
+Lester (2011),UK,CBM-I,25,15,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Lester (2011),UK,CBM-I,26,13,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Lester (2011),UK, Opposite CBM-I,26,18,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Lester (2011),UK, Opposite CBM-I,26,15,NR,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Li (2008),China,CBM-A,12,5,NR,1 week,Attentional bias,Computer,Faces,Attentional,7
+Li (2008),China, Opposite CBM-A,12,5,NR,1 week,Attentional bias,Computer,Faces,Attentional,7
+Li (2024),China, Control CBM-A,29,24,20.5,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Li (2024),China,CBM-A,29,25,20.5,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Li (2024),China, Opposite CBM-A,28,22,20.1,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Liang (2016),Taiwan,CBM-A,18,13,18.6,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Liang (2016),Taiwan,CBM-A,18,12,19.7,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Liang (2016),Taiwan, Control CBM-A,18,14,18.8,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Liang (2016),Taiwan, Control CBM-A,18,13,18.9,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Liu (2018),USA,CBM-A,43,NR,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Liu (2018),USA, Control CBM-A,41,NR,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Liu (2024),China,CBM-A,31,NR,NR,10 days,Attentional bias,Computer,Emotional pictures,Attentional,10
+Liu (2024),China, Control CBM-A,31,NR,NR,10 days,Attentional bias,Computer,Emotional pictures,Attentional,10
+Ma (2020),Sweden, Control CBM-A,25,14,40.2,1 week,Attentional bias,Virtual reality headset,Faces,Attentional,1
+Ma (2020),Sweden,CBM-A,25,9,39.4,1 week,Attentional bias,Virtual reality headset,Faces,Attentional,1
+Ma (2020),Sweden, Control CBM-A,25,14,35.9,1 week,Attentional bias,Virtual reality headset,Faces,Attentional,1
+Ma (2020),Sweden,CBM-A,25,10,38.1,1 week,Attentional bias,Virtual reality headset,Faces,Attentional,1
+Mao (2023),China,CBM-I,14,9,15.3,4 weeks,Interpretation bias,Smartphones,Sentences,Interpretation,8
+Mao (2023),China, Waitlist,14,9,15.0,4 weeks,Interpretation bias,Smartphones,Sentences,Interpretation,8
+Maoz (2013),Israel,CBM-A,24,20,23.0,5 weeks,Attentional bias,Computer,Faces,Attentional,4
+Maoz (2013),Israel, Control CBM-A,26,20,22.4,5 weeks,Attentional bias,Computer,Faces,Attentional,4
+McNally (2013),USA,CBM-A,20,6,38.2,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+McNally (2013),USA, Control CBM-A,18,8,40.0,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+McNally (2013),USA, Opposite CBM-A,19,9,34.7,4 weeks,Attentional bias,Computer,Faces,Attentional,4
+Mobini (2014),UK, CBM-I,19,14,21.0,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Mobini (2014),UK,,19,13,23.0,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Mobini (2014),UK,CBM-I,19,14,25.0,Single session,Interpretation bias,Computer,Sentences,Interpretation,1
+Murphy (2007),UK, Control CBM-I,22,16,20.7,Single session,Interpretation bias,Computer,Auditory descriptions,Interpretation,1
+Murphy (2007),UK, CBM-I,22,16,20.2,Single session,Interpretation bias,Computer,Auditory descriptions,Interpretation,1
+Murphy (2007),UK,CBM-I,22,17,20.7,Single session,Interpretation bias,Computer,Auditory descriptions,Interpretation,1
+Naim (2018),Israel, CBM-A,23,7,31.0,5 weeks,Attentional bias; Interpretation bias,Computer,Faces; Sentences,multiple,8
+Naim (2018),Israel,CBM-I,24,7,32.0,5 weeks,Attentional bias; Interpretation bias,Computer,Faces; Sentences,multiple,8
+Naim (2018),Israel,CBM-A + CBM-I,23,8,33.1,5 weeks,Attentional bias; Interpretation bias,Computer,Faces; Sentences,multiple,8
+Naim (2018),Israel, Combined Control,25,15,32.3,5 weeks,Attentional bias; Interpretation bias,Computer,Faces; Sentences,multiple,8
+Neophytou (2022),Cyprus,CBM-A,32,NR,NR,3 weeks,Attentional bias,Computer,Faces,Attentional,8
+Neophytou (2022),Cyprus, Control CBM-A,28,NR,NR,3 weeks,Attentional bias,Computer,Faces,Attentional,8
+Neubauer (2013),Germany,CBM-A,28,21,39.0,4.5 weeks,Attentional bias,Computer,Faces,Attentional,8
+Neubauer (2013),Germany,CBM-A Control CBM-A,28,14,40.1,4.5 weeks,Attentional bias,Computer,Faces,Attentional,8
+Nowakowski (2015),Canada, Control CBM-I,24,17,28.0,Single session,atttnetional bias,Computer,Faces,atttnetional,1
+Nowakowski (2015),Canada,CBM-I,24,19,24.0,Single session,atttnetional bias,Computer,Faces,atttnetional,1
+Nuijs (2020),The Netherlands,CBM-A,43,34,22.0,Single session,Attentional bias,Computer,Faces,Attentional,1
+Nuijs (2020),The Netherlands, Control CBM-A,36,26,21.8,Single session,Attentional bias,Computer,Faces,Attentional,1
+Ollendick (2019),USA,CBM-A,29,21,14.2,5 weeks,Attentional bias,Computer,Faces,Attentional,10
+Ollendick (2019),USA, Control CBM-A,29,20,14.3,5 weeks,Attentional bias,Computer,Faces,Attentional,10
+Orchard (2017),UK,CBM-I,29,19,9.9,4 weeks,Interpretation bias,Computer,Sentences,Interpretation,3
+Orchard (2017),UK, Waitlist,27,19,9.7,4 weeks,Interpretation bias,Computer,Sentences,Interpretation,3
+Pan (2019),China, Control CBM-A,20,17,19.9,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Pan (2019),China,CBM-A,20,18,20.1,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Pan (2019),China, Waitlist,23,20,20.0,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Pergamin-Hight (2016),Israel,CBM-A,31,11,12.3,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Pergamin-Hight (2016),Israel, Control CBM-A,36,18,12.7,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Podina (2020),Romania,CBM-I,69,NR,NR,Single session,Interpretation bias,Computer,Sentences; vignettes specific to SAD; instructed to imagine scenarios,Interpretation,1
+Podina (2020),Romania, Control CBM-I,71,NR,NR,Single session,Interpretation bias,Computer,Sentences; vignettes specific to SAD; instructed to imagine scenarios,Interpretation,1
+Ran (2022),China, Control CBM-A,24,12,20.2,1 week,Attentional bias,Computer,Faces,Attentional,7
+Ran (2022),China,CBM-A,24,12,19.7,1 week,Attentional bias,Computer,Faces,Attentional,7
+Reyes (2020),Austrailia, Control CBM-I,21,18,19.2,Single session,self-interpretation,Computer,Sentences,Interpretation,1
+Reyes (2020),Austrailia,CBM-I,21,18,19.2,Single session,self-interpretation,Computer,Sentences,Interpretation,1
+Rozenman (2020),USA,CBM-I,12,6,19.9,5 weeks,Interpretation bias,Computer,Sentences,Interpretation,12
+Rozenman (2020),USA, Control CBM-I,12,7,19.9,5 weeks,Interpretation bias,Computer,Sentences,Interpretation,12
+Salemink (2007),The Netherlands,CBM-I,60,NR,NR,NR,Interpretation bias,Computer,Sentences,Interpretation,1
+Salemink (2007),The Netherlands, Opposite CBM-I,58,NR,NR,NR,Interpretation bias,Computer,Sentences,Interpretation,1
+Shafiei (2019),Iran,CBM-A,16,NR,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Shafiei (2019),Iran, Control CBM-A,16,NR,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,8
+Sportel (2013),Netherlands,CBM-A,86,NR,NR,4 weeks,Attentional bias,Computer,Faces,Attentional,20
+Sportel (2013),Netherlands, TAU,70,54,14.1,4 weeks,Attentional bias,Computer,Faces,Attentional,20
+Standage (2014),UK, Opposite CBM-I,76,NR,NR,Single session,Interpretation bias,Computer,shapes; imagining scenarios,Interpretation,1
+Standage (2014),UK,CBM-I,76,NR,NR,Single session,Interpretation bias,Computer,shapes; imagining scenarios,Interpretation,1
+Steinman (2015),16 countries (92.9% USA), Control CBM-I,81,50,32.4,NR,Interpretation bias,Computer,words,Interpretation,1
+Steinman (2015),16 countries (92.9% USA),CBM-I,61,35,32.7,NR,Interpretation bias,Computer,words,Interpretation,1
+Steinman (2015),16 countries (92.9% USA),CBM-I,64,53,37.1,NR,Interpretation bias,Computer,words,Interpretation,1
+Steinman (2015),16 countries (92.9% USA),CBM-I,64,59,35.7,NR,Interpretation bias,Computer,words,Interpretation,1
+Steinman (2015),16 countries (92.9% USA), Control CBM-I,80,50,39.0,NR,Interpretation bias,Computer,words,Interpretation,1
+Stevens (2018),USA,CBM-I,35,27,20.24,Single session,interpretation,Computer,Sentences; imagined scenarios,Interpretation,1
+Stevens (2018),USA,CBM-I,35,21,20.1,Single session,interpretation,Computer,Sentences; imagined scenarios,Interpretation,1
+Stevens (2018),USA,CBM-I,41,31,20.8,Single session,interpretation,Computer,Sentences; imagined scenarios,Interpretation,1
+Sun (2019),China,CBM-I,22,NR,NR,4 weeks,Interpretation bias,Smartphone,Sentences,Interpretation,8
+Sun (2019),China, Control CBM-I,19,NR,NR,4 weeks,Interpretation bias,Smartphone,Sentences,Interpretation,8
+Taylor (2011),USA, Control CBM-A,34,22,19.3,Single session,Approach bias,Computer,Faces,approach bias,1
+Taylor (2011),USA,CBM-A,43,25,19.1,Single session,Approach bias,Computer,Faces,approach bias,1
+Taylor (2012),USA,AAT,20,11,20.2,Single session,Approach bias,Computer,Faces,approach bias,1
+Taylor (2012),USA, Control AAT,24,15,19.3,Single session,Approach bias,Computer,Faces,approach bias,1
+Terashima (2024a),Japan,CBM-I,20,10,19.0,1 week,Interpretation bias,Computer; Smartphone; tablet,Sentences,Interpretation,7
+Terashima (2024a),Japan, Waitlist,18,14,18.8,1 week,Interpretation bias,Computer; Smartphone; tablet,Sentences,Interpretation,7
+Terashima (2024b),Japan,CBM-I,34,28,19.0,1 week,Interpretation bias,Computer; Smartphone; tablet,Sentences; pictures,Interpretation,7
+Terashima (2024b),Japan, Waitlist,21,17,19.2,1 week,Interpretation bias,Computer; Smartphone; tablet,Sentences; pictures,Interpretation,7
+Vassilopoulos (2009),Greece,CBM-I TAU,22,17,10.3,3 weeks,Interpretation bias,In person; situations read aloud,Spoken Sentences,Interpretation,3
+Vassilopoulos (2009),Greece, TAU,21,13,10.6,3 weeks,Interpretation bias,In person; situations read aloud,Spoken Sentences,Interpretation,3
+Vassilopoulos (2014),Greece,CBM-I,26,12,10.7,Single session,Interpretation bias,In person; either written or spoken,shapes; spoken Sentences,Interpretation,1
+Vassilopoulos (2014),Greece,CBM-I,27,15,10.4,Single session,Interpretation bias,In person; either written or spoken,shapes; spoken Sentences,Interpretation,1
+Vassilopoulos (2014),Greece, Opposite CBM-I,21,10,10.6,Single session,Interpretation bias,In person; either written or spoken,shapes; spoken Sentences,Interpretation,1
+Vassilopoulos (2014),Greece, Opposite CBM-I,20,10,10.7,Single session,Interpretation bias,In person; either written or spoken,shapes; spoken Sentences,Interpretation,1
+White (2019),USA,CBM-A,19,13,14.2,6 weeks,Attentional bias,Computer,Faces,Attentional,10
+White (2019),USA,Control CBM-A,21,15,14.4,6 weeks,Attentional bias,Computer,Faces,Attentional,10
+Yang (2017),China,CBM-A + CBM-I,16,NR,NR,Single session,Attentional bias; Interpretation bias;,Computer,Sentences; Faces,multiple,1
+Yang (2017),China, CBM-A,20,NR,NR,Single session,Attentional bias; Interpretation bias;,Computer,Sentences; Faces,multiple,1
+Yang (2017),China,CBM-I,20,NR,NR,Single session,Attentional bias; Interpretation bias;,Computer,Sentences; Faces,multiple,1
+Yang (2017),China, Combined Control,20,NR,NR,Single session,Attentional bias; Interpretation bias;,Computer,Sentences; Faces,multiple,1
+Yao (2015),China, Control,23,17,20.1,4 days,Attentional bias,Computer,Faces; shapes,Attentional,4
+Yao (2015),China, Control,22,11,20.4,4 days,Attentional bias,Computer,Faces; shapes,Attentional,4
+Yao (2015),China,ABM,23,13,20.9,4 days,Attentional bias,Computer,Faces; shapes,Attentional,4
+Yeung (2019),Australia, CBM-A,30,25,19.1,Single session,Attentional bias; Attentional bias,Computer,Sentences; words,multiple,1
+Yeung (2019),Australia,CBM-A + CBM-I,26,20,18.8,Single session,Attentional bias; Attentional bias,Computer,Sentences; words,multiple,1
+Yeung (2019),Australia,CBM-I,28,22,20.2,Single session,Attentional bias; Attentional bias,Computer,Sentences; words,multiple,1
+Yeung (2019),Australia, Combined Control,32,23,18.7,Single session,Attentional bias; Attentional bias,Computer,Sentences; words,multiple,1
