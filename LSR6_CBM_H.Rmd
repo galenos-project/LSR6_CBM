@@ -425,7 +425,7 @@ ggplot(pw_sa_connected1, aes(x = comparison, fill = allegiance_bias)) +
 
 Due to this relatively homogeneous distribution of effect modifiers and the qualitative similarity between population, intervention, comparator, and outcome among comparisons in the network, we judged transitivity to be plausible.
 
-We found effects across CBM interventions versus Control CBM-A to range from `r round(values$best_te[values$nma == "nma_sa"], 2)` (SMD, 95% CI: `r round(values$best_lower95ci[values$nma == "nma_sa"], 2)` to `r round(values$best_upper95ci[values$nma == "nma_sa"], 2)`, 95% PI: `r round(values$best_lower95pi[values$nma == "nma_sa"], 2)` to `r round(values$best_upper95pi[values$nma == "nma_sa"], 2)`) in `r values$best_tx[values$nma == "nma_sa"]` to `r round(values$worst_te[values$nma == "nma_sa"], 2)` (SMD, 95% CI: `r round(values$worst_lower95ci[values$nma == "nma_sa"], 2)` to `r round(values$worst_upper95ci[values$nma == "nma_sa"], 2)`, 95% PI: `r round(-1*(values$worst_lower95pi[values$nma == "nma_sa"]), 2)` to `r round(-1*(values$worst_upper95pi[values$nma == "nma_sa"]), 2)`) in `r values$worst_tx[values$nma == "nma_sa"]`. The heterogeneity standard deviation is estimated at `r round(nma_sa$tau, 3)`.
+We found effects across CBM interventions versus Control CBM-A to range from `r round(values$best_te[values$nma == "nma_sa"], 2)` (SMD, 95% CI: `r round(values$best_lower95ci[values$nma == "nma_sa"], 2)` to `r round(values$best_upper95ci[values$nma == "nma_sa"], 2)`, 95% PI: `r round(values$best_lower95pi[values$nma == "nma_sa"], 2)` to `r round(values$best_upper95pi[values$nma == "nma_sa"], 2)`) in `r values$best_tx[values$nma == "nma_sa"]` to `r round(values$worst_te[values$nma == "nma_sa"], 2)` (SMD, 95% CI: `r round(values$worst_lower95ci[values$nma == "nma_sa"], 2)` to `r round(values$worst_upper95ci[values$nma == "nma_sa"], 2)`, 95% PI: `r round(-1*(values$worst_lower95pi[values$nma == "nma_sa"]), 2)` to `r round(values$worst_upper95pi[values$nma == "nma_sa"], 2)`) in `r values$worst_tx[values$nma == "nma_sa"]`. The heterogeneity standard deviation is estimated at `r round(nma_sa$tau, 3)`.
 
 ```{r nma_sad_forest, echo = FALSE, warning = FALSE, fig.width = 11, fig.height = 5}
 meta::forest(nma_sa,ref = "Control CBM-A", sortvar = -SUCRA)
@@ -616,7 +616,7 @@ netgraph(nma_dep, plastic=F, number.of.studies=T, cex.points=nma_dep$k.trts/2)
 
 **Figure 12.** Network plot of CBM interventions for symptoms of depression.CBM-I = Cognitive Bias Modification for Interpretations; CBM-A = Cognitive Bias Modification for Attention; TAU = Treatment As Usual; Opposite CBM-I = Opposite Cognitive Bias Modification for Interpretations; Opposite CBM-A = Opposite Cognitive Bias Modification for Attention; Multicomponent = Multicomponent CBM; Control CBM-I; Control CBM-I = Control Cognitive Bias Modification for Interpretations; Control CBM-A = Control Cognitive Bias Modification for Attention.
 
-We found effects across CBM interventions versus Control CBM-A to range from `r round(values$best_te[values$nma == "nma_dep"], 2)` (SMD, 95% CI: `r round(values$best_lower95ci[values$nma == "nma_dep"], 2)` to `r round(values$best_upper95ci[values$nma == "nma_dep"], 2)`, 95% PI: `r round(values$best_lower95pi[values$nma == "nma_dep"], 2)` to `r round(values$best_upper95pi[values$nma == "nma_dep"], 2)` ) in `r values$best_tx[values$nma == "nma_dep"]` to `r round(values$worst_te[values$nma == "nma_dep"], 2)` (SMD, 95% CI: `r round(values$worst_lower95ci[values$nma == "nma_dep"], 2)` to `r round(values$worst_upper95ci[values$nma == "nma_dep"], 2)`, 95% PI: `r round(values$worst_lower95pi[values$nma == "nma_dep"], 2)` to `r round(values$worst_upper95pi[values$nma == "nma_dep"], 2)`) in `r values$worst_tx[values$nma == "nma_dep"]`.
+We found effects across CBM interventions versus Control CBM-A to range from `r round(values$best_te[values$nma == "nma_dep"], 2)` (SMD, 95% CI: `r round(values$best_lower95ci[values$nma == "nma_dep"], 2)` to `r round(values$best_upper95ci[values$nma == "nma_dep"], 2)`, 95% PI: `r round(values$best_lower95pi[values$nma == "nma_dep"], 2)` to `r round(values$best_upper95pi[values$nma == "nma_dep"], 2)` ) in `r values$best_tx[values$nma == "nma_dep"]` to `r round(values$worst_te[values$nma == "nma_dep"], 2)` (SMD, 95% CI: `r round(values$worst_lower95ci[values$nma == "nma_dep"], 2)` to `r round(values$worst_upper95ci[values$nma == "nma_dep"], 2)`, 95% PI: `r round(-1*(values$worst_lower95pi[values$nma == "nma_dep"]), 2)` to `r round(values$worst_upper95pi[values$nma == "nma_dep"], 2)`) in `r values$worst_tx[values$nma == "nma_dep"]`.
 The heterogeneity standard deviation is estimated at `r round(nma_dep$tau, 3)`.
 
 ```{r nma_dep_forest, echo = FALSE, warning = FALSE, fig.width = 11, fig.height = 3}
@@ -828,7 +828,7 @@ rob_traffic_light(rob2_bias, tool = "ROB2")
 
 ```
 
-**Figure 24.** Risk of bias assessment for each study contributing data on general anxiety using the RoB2 tool
+**Figure 24.** Risk of bias assessment for each study contributing data on change in bias using the RoB2 tool
 
 7 studies (29%) were assessed as having 'high' risk of bias due to having 'high' risk of bias in at least one domain 15 studies (63%) had an overall 'moderate' risk of bias rating as they had 'some concerns' in two domain ratings.
 The remaining 2 studies were rated as having a 'low' overall risk of bias.
@@ -876,7 +876,7 @@ meta::forest(nma_qol,ref = "Control CBM-A", sortvar = -SUCRA)
 
 ```
 
-**Figure 27.** Relative treatment effects for social anxiety scores of each intervention versus control CBM-I.
+**Figure 27.** Relative treatment effects for quality of life scores of each intervention versus control CBM-I.
 CBM-I = Cognitive Bias Modification for Interpretations; CBM-A = Cognitive Bias Modification for Attention; Opposite CBM-A = Opposite Cognitive Bias Modification for Attention; Multicomponent = Multicomponent CBM; Control CBM-I; Control CBM-A = Control Cognitive Bias Modification for Attention.
 
 All relative treatment effects estimated in the NMA for quality of life and functioning scores are presented in the lower triangle of Table 5 (league table).
@@ -907,7 +907,7 @@ rob_traffic_light(rob2_qol, tool = "ROB2")
 
 ```
 
-**Figure 28.** Risk of bias assessment for each study contributing data on general anxiety using the RoB2 tool
+**Figure 28.** Risk of bias assessment for each study contributing data on quality of life using the RoB2 tool
 
 Evidence for the efficacy of CBM vs control for the clinical source were rated as having a range in their overall risk of bias.
 1 study (14%) was assessed as having 'high' risk of bias due to having 'high' risk of bias in at least one domain.
@@ -950,7 +950,7 @@ netgraph(nma_acc, plastic=F, number.of.studies=T, cex.points=nma_acc$k.trts/2)
 **Figure 30.** Network plot of CBM interventions contributing data on acceptability in individuals with social anxiety.
 CBM-I = Cognitive Bias Modification for Interpretations; CBM-A = Cognitive Bias Modification for Attention; TAU = Treatment As Usual; Opposite CBM-A = Opposite Cognitive Bias Modification for Attention; Multicomponent = Multicomponent CBM; Control CBM-I; Control CBM-I = Control Cognitive Bias Modification for Interpretations; Control CBM-A = Control Cognitive Bias Modification for Attention.
 
-We found effects across CBM interventions versus Control CBM-A to range from `r round(exp(values$best_te[values$nma == "nma_acc"]), 2)` (OR, 95% CI: `r round(exp(values$best_lower95ci[values$nma == "nma_acc"]), 2)` to `r round(exp(values$best_upper95ci[values$nma == "nma_acc"]), 2)`, 95% PI: `r round(values$best_lower95pi[values$nma == "nma_acc"], 2)` to `r round(values$best_upper95pi[values$nma == "nma_acc"], 2)` ) in `r values$best_tx[values$nma == "nma_acc"]` to `r round(exp(values$worst_te[values$nma == "nma_acc"]), 2)` (OR, 95% CI: `r round(exp(values$worst_lower95ci[values$nma == "nma_acc"]), 2)` to `r round(exp(values$worst_upper95ci[values$nma == "nma_acc"]), 2)`, 95% PI: `r round(exp(values$worst_lower95pi[values$nma == "nma_acc"]), 2)` to `r round(exp(values$worst_upper95pi[values$nma == "nma_acc"]), 2)`) in `r values$worst_tx[values$nma == "nma_acc"]`.
+We found effects across CBM interventions versus Control CBM-A to range from `r round(exp(values$best_te[values$nma == "nma_acc"]), 2)` (OR, 95% CI: `r round(exp(values$best_lower95ci[values$nma == "nma_acc"]), 2)` to `r round(exp(values$best_upper95ci[values$nma == "nma_acc"]), 2)`, 95% PI: `r round(exp(values$best_lower95pi[values$nma == "nma_acc"], 2)` to `r round(exp(values$best_upper95pi[values$nma == "nma_acc"]), 2)` ) in `r values$best_tx[values$nma == "nma_acc"]` to `r round(exp(values$worst_te[values$nma == "nma_acc"]), 2)` (OR, 95% CI: `r round(exp(values$worst_lower95ci[values$nma == "nma_acc"]), 2)` to `r round(exp(values$worst_upper95ci[values$nma == "nma_acc"]), 2)`, 95% PI: `r round(exp(values$worst_lower95pi[values$nma == "nma_acc"]), 2)` to `r round(exp(values$worst_upper95pi[values$nma == "nma_acc"]), 2)`) in `r values$worst_tx[values$nma == "nma_acc"]`.
 The heterogeneity standard deviation is estimated at `r round(nma_acc$tau, 2)`.
 
 ```{r nma_accforest, echo = FALSE, fig.width = 8, fig.height = 5, warning = FALSE}
@@ -958,7 +958,7 @@ meta::forest(nma_acc, ref = "Control CBM-A", sortvar = -SUCRA)
 
 ```
 
-**Figure 31.** Relative treatment effects for social anxiety scores of each intervention versus control CBM-A.
+**Figure 31.** Relative treatment effects for acceptability of each intervention versus control CBM-A.
 CBM-I = Cognitive Bias Modification for Interpretations; CBM-A = Cognitive Bias Modification for Attention; TAU = Treatment As Usual; Opposite CBM-A = Opposite Cognitive Bias Modification for Attention; Multicomponent = Multicomponent CBM; Control CBM-I; Control CBM-I = Control Cognitive Bias Modification for Interpretations; Control CBM-A = Control Cognitive Bias Modification for Attention.
 
 All relative treatment effects estimated in the NMA for acceptability are presented in the lower triangle of Table 6 (league table).
@@ -988,7 +988,7 @@ rob_traffic_light(rob2_acc, tool = "ROB2")
 
 ```
 
-**Figure 32.** Risk of bias assessment for each study contributing data on general anxiety using the RoB2 tool
+**Figure 32.** Risk of bias assessment for each study contributing data on acceptability using the RoB2 tool
 
 Evidence for the efficacy of CBM vs control for the clinical source were rated as having a range in their overall risk of bias.
 7 studies (29%) were assessed as having 'high' risk of bias due to having 'high' risk of bias in at least one domain 15 studies (63%) had an overall 'moderate' risk of bias rating as they had 'some concerns' in two domain ratings.
